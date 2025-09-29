@@ -12,7 +12,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!city) return;
-    console.log(API_KEY);
+    // console.log(API_KEY);
     setLoading(true);
     setError("");
     setWeather(null);
